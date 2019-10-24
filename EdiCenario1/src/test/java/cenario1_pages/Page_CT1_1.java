@@ -46,8 +46,7 @@ public class Page_CT1_1 {
 	private By cellCt1 = By.name("phone_mobile");
 	private By refCt1 = By.name("alias");
 	private By btnSubimitCt1 = By.name("submitAccount");
-	private By personalCt1 = By.cssSelector("#center_column > div > div:nth-child(1) > ul > li:nth-child(4) > a");
-	
+	private By personalCt1 = By.cssSelector("#center_column > div > div:nth-child(1) > ul > li:nth-child(4) > a");	
 	
 	public void inserirEmail() {
 		driver.findElement(emailCt1).sendKeys("emailct1.1@teste.cs");

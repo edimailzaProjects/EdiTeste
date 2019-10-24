@@ -61,5 +61,4 @@ public class Steps_CT1_1 {
 	public void afterScenario() {
 		this.driver.quit();
 	}
-
 }

@@ -18,8 +18,7 @@ public class Page_CT1_2 {
 	
 	private WebDriver driver; 
 	private WebDriverWait wait;
-	
-		
+			
 	public Page_CT1_2(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(this.driver, 30);
