@@ -31,7 +31,6 @@ public class Steps_CT4_1 {
 		abrirNavegador = new AbrirNavegador(this.driver);
 		page_CT4_1 = new Page_CT4_1(this.driver);
 	}
-
 	
 	@Dado("que o usuario que ja finalizou uma compra se conectou ao site")
 	public void que_o_usuario_que_ja_finalizou_uma_compra_se_conectou_ao_site() {
@@ -68,7 +67,6 @@ public class Steps_CT4_1 {
 	public void ele_podera_verificar_isso_em_Order_Story_and_Details() {
 		page_CT4_1.validarAlteracao();
 	}
-	
 	
 	@After
 	public void afterScenario() {

@@ -17,7 +17,6 @@ import cucumber.api.junit.Cucumber;
 glue="cenario4_steps",
 tags="@ct4")
 
-
 public class Runner_CT4 {
 
 }
